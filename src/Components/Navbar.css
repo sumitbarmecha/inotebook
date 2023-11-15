@@ -1,0 +1,36 @@
+.bg {
+    background-color: #525355;
+    /* fallback for old browsers */
+    box-shadow: 0 8px 32px 0 rgba(112, 112, 112, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+/* .rounded-pill{
+    border-radius: 10px !important;
+} */
+.navbar {
+    width: 75%;
+}
+
+.text {
+    color: white;
+}
+.activate{
+    font-weight: 650;
+    
+}
+.btn-sm{
+    cursor: pointer;
+}
+@media only screen and (max-width: 430px) and (min-width: 315px) {
+    .rounded-pill {
+        border-radius: 0px !important;
+        margin: 0% 0;
+    }
+    .navbar {
+        width: 100%;
+        padding: 2px;
+    }
+}
